@@ -22,4 +22,6 @@ Example Response:
 You can request blocks to be added or removed by opening an issue and providing the IP block and who it belongs to etc.
 
 # Projects using this:
+* [YAAntiBot Plugin](https://github.com/Ameliaaaaaaa/YAAntiBot-Plugin)
+
 Get yours listed here by opening a pull request!
