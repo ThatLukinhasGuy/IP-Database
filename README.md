@@ -8,5 +8,15 @@ The database is updated automatically daily and is stored in the [MaxMind](https
 # How to use?
 You can use one of the clients listed [here](https://dev.maxmind.com/geoip/docs/databases?lang=en#api-clients).
 
+Example Response:
+```
+{
+  "country": "US",
+  "isp": "CloudFlare",
+  "vpn": 0,
+  "cloud_gaming": 0
+}
+```
+
 # How to add IP blocks?
 You can request blocks to be added or removed by opening an issue and providing the IP block and who it belongs to etc.
