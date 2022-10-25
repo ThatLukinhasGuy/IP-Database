@@ -1,5 +1,5 @@
 # IP Database
-A database of IP address blocks with information regarding what kind of IP they are.
+A database of IP address blocks used to detect VPN's, hosting providers, cloud gaming providers and more.
 
 The database is updated automatically daily and is stored in the [MaxMind](https://blog.maxmind.com/2015/09/building-your-own-mmdb-database-for-fun-and-profit) database format.
 
