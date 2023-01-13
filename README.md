@@ -52,3 +52,7 @@ Postal
 * [YAAntiVPN](https://github.com/Ameliaaaaaaa/YAAntiVPN)
 
 Get yours listed here by opening a pull request!
+
+## License
+
+The content of this repository is licensed under the [Creative Commons Attribution NonCommercial ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0).
