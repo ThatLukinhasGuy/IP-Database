@@ -1,25 +1,52 @@
 # IP Database
-A database of IP address blocks used to detect VPN's, hosting providers, cloud gaming providers and more.
+An SQLite database of IP address blocks used to detect various types of IP addresses.
 
-The database is updated automatically daily and is stored in the [MaxMind](https://blog.maxmind.com/2015/09/building-your-own-mmdb-database-for-fun-and-profit) database format.
-
-**If you plan on using this for anything, please consider sponsoring the project.**
+**Free for non-commercial projects and products. Get in touch if you require it for commercial projects and products.**
 
 # How to use?
-You can use one of the clients listed [here](https://dev.maxmind.com/geoip/docs/databases?lang=en#api-clients).
+The database is stored in an SQLite database file. You can query like this: `SELECT * FROM IPv4 WHERE Start <= ? AND End >= ?;` where ? is the IP address as an integer.
 
 Example Response:
 ```
 {
-  "country": "US",
-  "isp": "CloudFlare",
-  "vpn": 0,
-  "cloud_gaming": 0
+  "Start": 16843008,
+  "End": 16843008,
+  "ASN": "AS13335",
+  "Country": "US",
+  "City": "Los Angeles",
+  "Region": "California",
+  "Longitude": "-118.243568",
+  "Latitude": "34.05286",
+  "Postal": "90001",
+  "ISP": "CLOUDFLARENET",
+  "Types": "2, 5"
 }
 ```
 
-# How to add IP blocks?
-You can request blocks to be added or removed by opening an issue and providing the IP block and who it belongs to etc.
+# Address types:
+1. Residential
+2. Business
+3. Hosting
+4. VPN
+5. DDoS Mitigation
+6. Tor Relay
+7. Cloud Gaming
+8. Mobile Carrier
+
+# How to add or update ASN's/Blocks/Addresses?
+You can request these to be added or updated by opening an issue and providing the following:
+```
+ASN/Block/Address
+[Types]
+ASN/Block/Address Holder
+Country
+City
+Region
+Longitude
+Latitude
+Postal
+```
+*Only the ASN/Block/Address and the outdated fields are required if you are requesting data to be updated.*
 
 # Projects using this:
 * [YAAntiVPN](https://github.com/Ameliaaaaaaa/YAAntiVPN)
