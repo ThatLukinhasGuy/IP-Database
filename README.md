@@ -34,19 +34,7 @@ Example Response:
 8. Mobile Carrier
 
 # How to add or update ASN's/Blocks/Addresses?
-You can request these to be added or updated by opening an issue and providing the following:
-```
-ASN/Block/Address
-[Types]
-ASN/Block/Address Holder
-Country
-City
-Region
-Longitude
-Latitude
-Postal
-```
-*Only the ASN/Block/Address and the outdated fields are required if you are requesting data to be updated.*
+You can request these to be added or updated by opening an issue and using the `Additions and Updates` template.
 
 # Projects using this:
 * [YAAntiVPN](https://github.com/Ameliaaaaaaa/YAAntiVPN)
