@@ -25,7 +25,7 @@ Example Response:
 
 # Address Types:
 1. Residential
-2. Business (Some hosts, VPN's etc will be "Business" only due to the ASN not being categorised.)
+2. Business
 3. Hosting
 4. VPN
 5. DDoS Mitigation
