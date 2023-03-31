@@ -4,7 +4,7 @@ An SQLite database of IP address blocks used to detect various types of IP addre
 **Free for non-commercial projects and products. Get in touch if you require it for commercial projects and products.**
 
 # How to use?
-The database is stored in an SQLite database file. You can query like this: `SELECT * FROM IPv4 WHERE Start <= ? AND End >= ?;` where ? is the IP address as an integer.
+The database is stored in an SQLite database file. You can query like this: `SELECT * FROM IPv4 WHERE Start <= ? AND End >= ? ORDER BY Start DESC LIMIT 1;` where ? is the IP address as an integer.
 
 Example Response:
 ```
