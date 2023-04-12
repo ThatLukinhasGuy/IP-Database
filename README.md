@@ -33,7 +33,6 @@ Example Response:
 7. Cloud Gaming
 8. Mobile Carrier
 9. Banking
-10. IP Transit
 
 # How to add or update ASN's/Blocks/Addresses?
 You can request these to be added or updated by opening an issue and using the `Additions and Updates` template.
